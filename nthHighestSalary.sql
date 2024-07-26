@@ -1,4 +1,5 @@
-select * from IT_Employee
+select * from IT_Employee;
+
 
 --nth highest salary 
 
@@ -13,6 +14,16 @@ from IT_Employee
 select top 1 salary 
 from result 
 where denserank =2
+
+--3rd highest salary , using CTE & Row_Number
+with result as
+(
+select salary,
+ROW_NUMBER () over (order by salary desc) as rownumber
+from IT_Employee
+)
+Select  salary from result
+where rownumber =4
 
 --3rd nth salary, using top n clause
 select top 1 salary from
