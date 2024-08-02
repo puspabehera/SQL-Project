@@ -11,7 +11,7 @@ a. using aggregate function
 </p>
 
 ```
-select max(salary) from IT_Employees
+select max(salary) from IT_Employees 
 where Salary < (select max(salary) from IT_Employees
 where Salary < (select max(salary) from IT_Employees
 where Salary < (select max(salary) from IT_Employees
