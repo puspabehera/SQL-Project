@@ -16,5 +16,5 @@ where Salary < (select max(salary) from IT_Employees
 where Salary < (select max(salary) from IT_Employees
 where Salary < (select max(salary) from IT_Employees
 where Salary < (select max(salary) from IT_Employees
-)))) 
+))))  
 ```
