@@ -19,7 +19,7 @@ where Salary < (select max(salary) from IT_Employees
 ))))
 ```
 
-2.Triggers Execution Order in SQL Server:
+2.Triggers Execution Order in SQL Server :
 ```
 CREATE TRIGGER tr_DatabaseScopeDDLTrigger
 ON DATABASE
