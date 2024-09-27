@@ -9,7 +9,7 @@ we can find nth highest salary using may way
 1. using aggregate function
 
 </p>
- 
+
 ```
 select max(salary) from IT_Employees 
 where Salary < (select max(salary) from IT_Employees
