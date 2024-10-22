@@ -15,8 +15,9 @@ select max(salary) from IT_Employees
 where Salary < (select max(salary) from IT_Employees
 where Salary < (select max(salary) from IT_Employees
 where Salary < (select max(salary) from IT_Employees
+where Salary < (select max(salary) from IT_Employees
 where Salary < (select max(salary) from IT_Employees 
-))))
+)))))
 ```
 
 2.Triggers Execution Order in SQL Server :
