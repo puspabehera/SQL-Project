@@ -7,7 +7,6 @@ going to cover all l SQL topic in depth
 <p dir="auto">
 we can find nth highest salary using may way 
 1. using aggregate function 
-
 </p>
 
 ```
