@@ -10,7 +10,7 @@ we can find nth highest salary using may way
 </p>
 
 ```
-select max(salary) from IT_Employees 
+select max(salary) from IT_Employees  
 where Salary < (select max(salary) from IT_Employees
 where Salary < (select max(salary) from IT_Employees
 where Salary < (select max(salary) from IT_Employees
