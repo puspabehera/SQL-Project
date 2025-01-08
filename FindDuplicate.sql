@@ -30,8 +30,6 @@ VALUES (1, 'John', 'Doe', 'Development', 'Software Engineer', 70000.00),
 -- Select the data to verify the entries
 SELECT * FROM #IT_Employees;
 go
-select * from #IT_Employees
-go
 -- find duplicates record in a table
 
 --using group by & having clause
